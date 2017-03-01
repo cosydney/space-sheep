@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Space sheep 🚀</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+	<style type="text/css">
+		h1 h2 h3 h4 p {
+			color: #636363;
+		}
+		#space-sheep {
+			font-size: 130px;
+		}
+		
+		#space-mouton {
+			color:whitesmoke;
+			min-height: 70vh;
+			width: 100%;
+			position: relative;
+			background-size: cover;
+			background-position: center;
+			background-image:  linear-gradient(-225deg, rgb(255, 255, 255) 0%, rgba(3, 3, 80, 0.44) 50%), url("images/sheep0.jpeg");
+		}
+		#tagline{
+			padding-top: 200px;
+		}
+
+		
+		.button-reboot-blue {
+			font-size: 30px;
+			padding: 22px 51px;
+			margin-bottom: 20px;
+			border: 1px solid #1aa7ff;
+			box-shadow: 1px 1px 1px #1aa7ff;
+			border-radius: 10px;
+			cursor: pointer;
+			color: white;
+			background-color: #1aa7ff;
+			box-shadow: 1px 1px 1px;
+		}
+		.button-reboot-blue:hover{
+			background-color: white;
+			transition: color 0.3s ease;
+			border: 1px solid white;
+			color: #1aa7ff;
+			box-shadow: 1px 1px 1px white;
+		}
+
+		i {
+			color: white;
+		}
+		.steps {
+			border: 1px solid rgba(211, 211, 211, 0.49);
+  			padding: 30px;
+ 			margin: 10px;
+ 			background-color: rgb(26, 167, 255);
+    		border-radius: 20px;
+    		color: white;
+    		box-shadow: 3px 3px 3px #b2b2b3;
+		}
+		.steps:hover{
+			background-color: rgb(27, 142, 214);
+		}
+
+		#send {
+			font-size: 45px;
+			padding: 40px;
+		}
+		
+		.padded{
+			padding-top: 20px;
+			padding-bottom: 100px;
+		}
+
+		.jumbotron {
+			background-color: #fbfbfb;
+		}
+
+		#apply {
+    		margin: 100px;
+			background-color: rgba(241, 239, 239, 0.31);
+    		padding: 30px 10px;
+    		box-shadow: 1px 1px 1px lightgrey;
+		}
+
+		.why {
+		    height: 400px;
+		    border-radius: 100%;
+		    border: 5px solid rgb(26, 167, 255);
+		}
+
+	</style>
+</head>
+<body>
+<!-- Header -->
+	<div class="jumbotron" id="space-mouton">
+		<div class="container">
+			<div class="text-center" id="tagline">
+				<h1 id="space-sheep">Space Sheep</h1>
+				<br>
+				<a href="#apply"><button class="btn-default btn button-reboot-blue">Send one</button></a>
+				<br>
+				<p>Send a sheep to space</p>
+			</div>
+		</div>
+	</div>
+<!-- Send a sheep -->
+	<div class="padded">
+		<h1 class="text-center" id="send">Send a sheep in 3 easy steps</h1>
+		<br>
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-xs-6 col-md-4">
+					<div class="steps">
+						<i class="fa fa-mouse-pointer fa-4x" aria-hidden="true"></i>
+						<h2>Select</h2>
+						<p>Choose your sheep ready to be sent</p>
+					</div>
+				</div>
+				<div class="col-xs-6 col-md-4">
+					<div class="steps">
+						<i class="fa fa-credit-card fa-4x" aria-hidden="true"></i>
+						<h2>Pay</h2>
+						<p>Pay via our one click payment</p>
+					</div>
+				</div>
+				<div class="col-xs-offset-3 col-xs-6 col-md-offset-0 col-md-4">
+					<div class="steps">
+						<i class="fa fa-rocket fa-4x" aria-hidden="true"></i>
+						<h2>Ship</h2>
+						<p>We ship your sheep to space</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<br>
+	<!-- Why send a sheep -->
+	<div class="jumbotron">
+		<div class="container">
+			<div class="row">
+			<div class="col-xs-12 col-md-6">
+				<div class="image-cropper"><img src="images/baby.jpeg" alt="baby sheep" class="why img-responsive circle-avatar"></div>
+			</div>
+				<div class="col-xs-12 col-md-6">
+					<div class="text-center">
+						<h2>We love sheep</h2>
+						<p>We believe baby sheeps have the right to travel</p>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				
+				<div class="col-xs-12 col-md-6">
+					<div class="text-center">
+						<h2>Who is it for</h2>
+						<p>Any sheep in the world are entitled for our space program</p>
+					</div>
+				</div>
+				<div class="col-xs-12 col-md-6">
+					<div class="image-cropper"><img src="images/sheep1.jpeg" alt="baby sheep" class="why img-responsive </div>circle-avatar">					
+				</div>
+			</div>
+		</div>
+	</div>
+
+<!-- Apply -->
+<div class="text-center">
+		<div id="apply">
+			<h1>Send a Sheep to space</h1>
+			<p>For early adopters, leave us your email to be the first to send a space sheep</p>
+			<br>
+			<form action="#" class="form-inline">
+				<input type="email" class="form-control mb-2 mr-sm-2 mb-sm-0" placeholder="sheep@topace.co">
+				<button type="submit" class="btn btn-primary">Submit</button>
+			</form>
+		</div>
+</div>
+<p class="text-center">Copyright ©2017 Space Sheep. All rights reserved.</p>
+</body>
+</html>
